@@ -1,5 +1,7 @@
-name: PullRequest
+name: Pull request after tests
+
 on: [pull_request]
+
 jobs:
   PullRequest:
     runs-on: ubuntu-latest
